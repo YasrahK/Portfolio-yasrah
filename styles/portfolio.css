@@ -1,5 +1,46 @@
-h1{
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+*{
+    margin:0;
+    height: 100%;
+
+}
+
+body{
+    width: 100%;
+}
+
+.img-container{
+    background-image: url(../images/homepage.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+
+}
+
+.inner-container{
     text-align: center;
-    background-color: black;
-    color: white;
+    position: absolute;
+    width: 100%;
+    color:#25010f;
+    height: auto;
+    margin-top: 120px;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 72px;
+    font-weight: bold;
+
+}
+
+h2{
+    font-family: 'Poppins', sans-serif; 
+   text-align: center;
+}
+
+.navigation{
+    margin-left: 10px ;
 }
