@@ -37,11 +37,21 @@ h1{
 
 }
 
+a {
+    text-decoration: none;
+    color:#25010f;
+}
+
 h2{
     font-family: 'Poppins', sans-serif; 
    text-align: center;
 }
-
-.navigation{
-    margin-left: 10px ;
+.container{
+    padding-top: 200px;
+}
+img{
+    margin-top: -720px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
