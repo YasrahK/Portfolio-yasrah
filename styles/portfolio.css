@@ -17,27 +17,40 @@ h1,h2,h3,h4,h5{
 }
 
 
-
-
 .hero{
     background-image: url(../images/homepage.jpg);
     background-repeat: none;
     text-align: center;
     background-size: cover;
-    padding-bottom: 30px;
+   
 }
 
+.about-container{
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    padding-bottom: 300px;
+}
 h1{
     padding-top: 150px;
     font-family: 'Playfair Display', serif;
     font-size: 80px;
   
 }
+.about-head{
+    color: white;
+    padding-top: 300px;
+    text-shadow: 2px 2px black;
+}
 
 h2{
     padding-top: 30px;
     padding-bottom: 20px;
     text-align: center;
+}
+p{
+    font-size: 18px;
 }
 
 .btn-branding{
@@ -49,6 +62,13 @@ h2{
 }
 
 .home-content{
+    background-color: white;
+    box-shadow: 0 0 10px 5px gray ;
+    border-radius: 4px;
+    margin-top: -20px;
+}
+
+.about-content{
     background-color: white;
     box-shadow: 0 0 10px 5px gray ;
     border-radius: 4px;
@@ -85,5 +105,8 @@ h2{
     .btn-branding{
         font-size: 14px;
     }
+   .about-container{
+       text-align: center;
+   }
 
 }
