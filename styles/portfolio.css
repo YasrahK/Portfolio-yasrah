@@ -53,9 +53,11 @@ h2{
 p{
     font-size: 18px;
 }
-.btn-primary{
+.project-link{
     text-align: center;
 }
+
+
 .btn-branding{
     background-color:var(--branding-color);
     color: white;
