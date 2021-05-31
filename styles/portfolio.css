@@ -108,10 +108,28 @@ p{
 }
 
 .logo{
-    max-width: 100px;
+ 
     max-height: 50px;
 }
 
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 45px;
+    padding-left: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+nav li a:hover, nav li.active a{
+    color: var(--branding-color);
+}
 @media (max-width:970px) {
     h1,h2,p{
         text-align: center;
