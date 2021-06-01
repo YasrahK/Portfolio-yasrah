@@ -107,9 +107,10 @@ p{
     justify-content: center;
 }
 
-.logo{
+.logo-name{
  
-    max-height: 50px;
+   line-height: 42px;
+   margin-left: -50px;
 }
 
 nav ul{
