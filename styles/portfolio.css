@@ -4,6 +4,8 @@ font-family: 'Poppins', sans-serif;*/
     --branding-color:  #708fb9;
     --heading-font: 'Playfair Display', serif;
     --default-font:'Poppins', sans-serif;
+    --secondary-color: lightgray;
+
 }
 
 body{
@@ -13,7 +15,7 @@ h1,h2,h3,h4,h5{
     color: #3a3a3b;
     font-weight: bold;
     font-family:var(--heading-font);
-    text-shadow: 2px 2px lightgray;
+    text-shadow: 2px 2px var(--secondary-color);
 }
 
 
@@ -32,6 +34,10 @@ h1,h2,h3,h4,h5{
     background-size: cover;
     padding-bottom: 300px;
     max-width: 100%;
+}
+
+.homepage-link a{
+  color: white;
 }
 h1{
     padding-top: 150px;
@@ -130,6 +136,33 @@ nav li a{
 
 nav li a:hover, nav li.active a{
     color: var(--branding-color);
+}
+
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out ;
+}
+
+footer .social-links a:hover{
+    color: white;
+    background-color: var(--branding-color);
 }
 @media (max-width:970px) {
     h1,h2,p{
