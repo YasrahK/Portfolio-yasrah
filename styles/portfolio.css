@@ -34,11 +34,9 @@ h1,h2,h3,h4,h5{
     background-size: cover;
     padding-bottom: 300px;
     max-width: 100%;
+    padding-top:5px ;
 }
 
-.homepage-link a{
-  color: white;
-}
 h1{
     padding-top: 150px;
     font-family: 'Playfair Display', serif;
@@ -178,11 +176,19 @@ footer .social-links a:hover{
     p{
         font-size:14px ;
     }
+
+    .content-container{
+        padding-top: 10px;
+    }
     .btn-branding{
         font-size: 14px;
     }
    .about-container{
        text-align: center;
+   }
+   .contact-links img{
+      height:60px ;
+      text-align: center;
    }
 
 }
